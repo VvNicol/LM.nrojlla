@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body{
+	background-color: antiquewhite;
+}
+
+.imgD{
+	float: right;
+}
+.imgI{
+	float: left;
+}
+.fondoh1{
+	background-color: lightgreen;
+}
+.imgheader{
+	width: 10%;
+	height: 10%;
+}
+h1{
+	display: flex;
+	align-items: center;
+	text-align: center;	
+	padding: 1rem;
+	flex-direction: column;
+	margin:0%;
+}
+h2{
+	color: white;
+	align-items: center;
+	text-align: center;	
+	
+}
+nav{
+	padding: 0.1rem;
+	display: flex;
+	background-color: black;
+	align-items: center;
+}
+.menu{
+	color: white;
+	text-decoration: none;
+	
+}
+.cv{
+	color: white;
+	text-decoration: none;
+	float:right;
+}
+.caja{
+	display: flex;		
+	text-align: center;	
+	border: dashed red;
+}
+.submenu{
+	margin-left: 5px;
+	float: left;
+	background-color: white;
+	margin-top: 1rem;
+	border: solid blue 1px;
+	padding-right: 6rem;
+	display: block;
+	
+}
+.link{
+	float: right;
+	display: block;
+	color: black;
+}
+.filtro{
+	filter: contrast(5);
+}
+.contenedorimg{
+	background-color: lightgray;
+	border-top: solid blue 5px;
+}
